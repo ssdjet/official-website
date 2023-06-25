@@ -1,0 +1,51 @@
+@import 'pos';
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.link-active {
+  color: #4a96fa;
+}
+.link-hover:hover {
+  color: #4a96fa;
+}
+.bottom-round {
+  background-color: #fff;
+  border-bottom-right-radius: 90em 100px;
+  border-bottom-left-radius: 90em 100px;
+}
+.font-36 {
+  font-size: 36px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'PARaDOS';
+  src: url('@/static/fonts/PARaDOS.ttf');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('@/static/fonts/Ubuntu-R-9.ttf');
+}
+@font-face {
+  font-family: 'Ubuntu-Medium';
+  src: url('@/static/fonts/Ubuntu-M-7.ttf');
+}
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  src: url('@/static/fonts/Ubuntu-B-2.ttf');
+}
+@font-face {
+  font-family: 'BookmanOldStyle-Bold';
+  src: url('@/static/fonts/Bookman-Old-Style-Bold-2.ttf');
+}

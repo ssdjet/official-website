@@ -1,0 +1,91 @@
+.home-block {
+  .title-underline {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .title-underline::after {
+    content: url('@/assets/imgs/index/underline.png');
+    display: block;
+    margin-top: -10px;
+  }
+  .block-titel {
+    font-size: 36px;
+    color: #132642;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: 'Ubuntu-Bold', sans-serif;
+  }
+  .block-text {
+    font-size: 18px;
+    font-family: 'Ubuntu-Medium', sans-serif;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .Ubuntu-Bold {
+    font-family: 'Ubuntu-Bold', sans-serif;
+  }
+  @media (max-width: 960px) {
+    .block-titel {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
+  // .border-box {
+  //   padding: 0;
+  //   background-color: #161616;
+  //   border: 1px solid #333;
+  // }
+  .win {
+    position: relative;
+    padding: 0 20px;
+  }
+  // .main {
+  //   max-width: 400px;
+  //   text-align: center;
+  //   margin: 0 auto;
+  //   .main-title {
+  //     font-size: 24px;
+  //     color: #fff;
+  //   }
+  //   .main-text {
+  //     font-size: 18px;
+  //     color: #b1b6bb;
+  //   }
+  // }
+  .border_corner {
+    background: #333;
+    height: 25px;
+    position: absolute;
+    width: 4px;
+  }
+  .border_corner::after {
+    background: #333;
+    content: '';
+    height: 6px;
+    left: -10px;
+    position: absolute;
+    top: 10px;
+    width: 25px;
+  }
+  .border_corner_left_top {
+    top: -12px;
+    left: -1px;
+  }
+  .border_corner_right_top {
+    top: -12px;
+    right: -1px;
+  }
+  .border_corner_left_bottom {
+    bottom: -12px;
+    left: -1px;
+  }
+  .border_corner_right_bottom {
+    bottom: -12px;
+    right: -1px;
+  }
+}
